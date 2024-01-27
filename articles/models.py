@@ -12,4 +12,4 @@ class Article(models.Model):
             return self.title
 
         def snippet(self):
-            return self.bady[:250] + ' ...'    
+            return self.bady[:250] + ' ...'
