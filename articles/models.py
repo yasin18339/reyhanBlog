@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 # Create your models here.
 class Article(models.Model):
 
-        title = models.CharField(max_length = 250)
+        title = models.CharField(max_length = 100)
         slug = models.SlugField()
         bady = models.TextField()
         date = models.DateTimeField(auto_now_add = False)
